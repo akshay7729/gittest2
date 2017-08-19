@@ -1,0 +1,27 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "gittest npm project",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshay7729/gittest2.git"
+  },
+  "author": "akshay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshay7729/gittest2/issues"
+  },
+  "homepage": "https://github.com/akshay7729/gittest2#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
